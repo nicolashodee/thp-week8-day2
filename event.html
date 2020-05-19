@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Formulaire</title>
+    <title>Event</title>
     <link rel="stylesheet" href="style.css" media="screen">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -31,32 +31,34 @@
       </nav>
   </div>
     <div class="container">
-      <form class="form-signin">
-        <fieldset>
-          <legend>Titre du formulaire</legend>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group">
-            <label for="exampleTextarea">Text</label>
-            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-          </div>
-          <fieldset class="form-group">
-            <div class="form-check">
-              <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" value="" checked="">
-                Titre de la Checkbox
-              </label>
-            </div>
-          </fieldset>
-          <button type="submit" class="btn btn-block btn-primary">Submit</button>
-      </form>
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="event-h1 my-4">Titre de l'event
+        <small>- Localisation</small>
+      </h1>
+    
+      <!-- Portfolio Item Row -->
+      <div class="row">
+    
+        <div class="col">
+          <img class="img-fluid shadow-sm p-3 mb-5 bg-white rounded"" src="http://s1.lprs1.fr/images/2018/08/08/7846821_3ce4e164-9af0-11e8-b34e-0411160e7743-1_940x500.jpg" alt="">
+        </div>
+    
+        <div class="col">
+          <h3 class="my-3">Project Description</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+          <h3 class="my-3">Project Details</h3>
+          
+          <button type="button" class="btn btn-primary">Join Event</button>
+          <button type="button" class="btn btn-secondary">Quit Event</button>
+          <button type="button" class="btn btn-warning">Edit my Event</button>
+          
+
+        </div>
+    
+      </div>
     </div>
+
+
   </body>
 </html>
